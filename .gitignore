@@ -1,0 +1,41 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+baseurlconfig
+products/lumeflow.json
+lumeflow.json
+.lumeflow-*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime history, HTTP logs and temporary request bodies
+lumeflow_tasks.json
+lumeflow_http.log
+*.log
+logs/
+lumeflow_req_*.json
+req.json
+request.json
+tmp/
+temp/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

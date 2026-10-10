@@ -1,0 +1,12 @@
+{
+  "name": "lumeflow",
+  "version": "1.0.0",
+  "description": "Generate images and videos with Lumeflow. Includes browser login, media uploads, credit quotes and task history. Requires Python 3.10+ and network access in a local Agent environment.",
+  "author": { "name": "LumeFlow" },
+  "homepage": "https://www.lumeflow.ai",
+  "repository": "https://github.com/lumeflow-ai/lumeflow-cursor",
+  "license": "Apache-2.0",
+  "keywords": ["image", "video", "lumeflow"],
+  "logo": "./packaging/assets/icon.png",
+  "commands": "./commands/"
+}
